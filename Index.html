@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arthur Florenço">
+    <meta name="description" content="This website is about a music band">
+    <title>Band</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="about" id="about">
+            <h1 style="font-size: 50px;">LUKINHAS</h1>
+            <p style="width: 60%;">Com carreira gerenciada pela Liga Entretenimento em parceria com Som Livre, Lukinhas
+                cresceu na comunidade de Asa Branca, no Rio de Janeiro, e levanta a força da comunidade e as bandeiras
+                do antirracismo e da igualdade social. Representa a nova geração de artistas do pagode urbano e
+                coleciona alguns lançamentos como a versão de “Posturada - Ao Vivo” com a colaboração do sambista
+                Mumuzinho, que possui mais de 16 milhões de views no YouTube e mais de 12 milhões de plays no Spotify.
+                “Volta Pra Ficar” com Pabllo Vittar, “Explana o Escondido” com Ronaldinho Gaúcho, “Pirraça” com Suel,
+                "Disk Me" com Lucas e Orelha, "Sem Vergonha" com Chris MC e “Onda Maluca” são outros destaques
+                importantes em sua discografia.</p>
+            <h1>Discografia</h1>
+            <div class="albums">
+                <div class="album">
+                    <img src="https://akamai.sscdn.co/letras/360x360/albuns/f/6/c/5/01668076028.jpg"
+                        alt="Capa do álbum 1" width="264px" height="264px">
+                    <p>Confiçoes de um romantico</p>
+                </div>
+                <div class="album">
+                    <img src="https://cdns-images.dzcdn.net/images/cover/8bc6acad900163cb3db9bf8b67f4cc77/264x264.jpg"
+                        alt="Capa do album 2">
+                    <p>100 neurose</p>
+                </div>
+                <div class="album">
+                    <img src="https://cdns-images.dzcdn.net/images/cover/61e7ead5e0b852b812782ead50acfce1/264x264.jpg"
+                        alt="Capa do album 3">
+                    <p>Melhor forma</p>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <nav class="navbar">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#" class="nav-item">Concerts</a>
+                <a href="#" class="nav-search"><i class="fa fa-search"></i></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="tour">
+            <h1>Tour</h1>
+            <p>Reserve your ticket</p>
+            <table style="border-radius: 10px;">
+                <tr>
+                    <th>Data</th>
+                    <th>Local</th>
+                    <th>Bilhetes</th>
+                </tr>
+                <tr>
+                    <td>19/09/2024</td>
+                    <td>São Paulo - SP</td>
+                    <td style="background-color: red;">SOLD OUT</td>
+                </tr>
+                <tr>
+                    <td>26/09/2024</td>
+                    <td>Porto Alegre - RS</td>
+                    <td style="background-color: red;">SOLD OUT</td>
+                </tr>
+                <tr>
+                    <td>29/10/2024</td>
+                    <td>Rio de Janeiro - RJ<br />
+                        8:00 PM | Barra da Tijuca<br />
+                        10:30 AM | Copacabana<br /></td>
+                    <td style="background-color: #fff7;"><button class="btn-list" type="submit">BUY TICKET</button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="concerts">
+            <div class="concert-card">
+                <img src="img/SP.jpg" class="concert-img" alt="">
+                <h3>Sao Paulo</h3>
+                <p class="place">City Hall Square, São Paulo - SP</p><br />
+                <button type="submit">BUY TICKET</button>
+            </div>
+            <div class="concert-card">
+                <img src="img/RS.jpg" class="concert-img" alt="">
+                <h3>Porto Alegre</h3>
+                <p class="place">Arena do Gremio, Porto Alegre - RS</p><br />
+                <button type="submit">BUY TICKET</button>
+            </div>
+            <div class="concert-card">
+                <img src="img/RJ.jpg" class="concert-img" alt="Rio de Janeiro" title="Rio de Janeiro">
+                <h3>Rio de Janeiro</h3>
+                <p class="place">City Bank Hall Square, Rio de Janeiro - RJ</p><br />
+                <button type="submit">BUY TICKET</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h1>Contact Us</h1>
+        <p>You like us? Let's go</p>
+        <div class="contacts">
+            <div>
+                <p><i class="fa-solid fa-phone"></i>hone: XXX XXX XXX</p>
+                <p><i class="fa-solid fa-location-dot"></i>Rio de Janeiro, RJ</p>
+                <p><i class="fa-solid fa-envelope"></i>email: contatolukinhas@liga.com</p>
+            </div>
+            <div class="form-footer">
+                <form action="">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email address"><br />
+                    <textarea name="message" id="" cols="42" rows="10" placeholder="Message"></textarea><br />
+                    <label for="newsletter">Sign up to our newsletter</label>
+                    <input type="checkbox" name="newsletter" id="newsletter"><br />
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

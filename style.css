@@ -1,0 +1,138 @@
+* {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+}
+
+img{
+    border-radius: 10px;
+}
+
+table , th, td {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 0.2rem;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/*HEADER*/
+header{
+    background-color: #343467;
+    height: auto;
+    padding-top: 30px ;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 25px;
+    padding: 30px;
+    
+}
+
+.albums{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/*NAV BAR*/
+.menu{
+    width: 100%;background-color: black;padding: 20px;
+}
+
+.navbar{
+    display: inline;
+    
+    font-size: large;
+}
+.nav-search{
+    float: right;
+    margin-right: 30px;
+    color: white;
+}
+.nav-item{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+
+
+/*MAIN*/
+main{
+    background-color: #343434;
+    padding-bottom: 30px;
+}
+
+.tour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.btn-list{
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.concerts{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.concert-card{
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 10px  40px;
+}
+
+.concert-img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    background-color: #343467;
+    padding: 30px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.form-footer{
+    text-align: left;
+    line-height: 30px;
+}
