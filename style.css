@@ -196,11 +196,11 @@ footer{
 }
 
 @media (max-width: 524px) {
-    .discografia, .concerts, .contacts{
+    .discografia, .concerts, .contacts, .navbar{
         display: flex;
         flex-direction: column;
     }
-    .informations, .concert-card{
+    .informations, .concert-card, .nav-item, .nav-search, .dropbtn{
         margin: 10px;
     }
 }
